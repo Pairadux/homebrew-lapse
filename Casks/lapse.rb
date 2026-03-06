@@ -1,6 +1,6 @@
 cask "lapse" do
-  version "0.1.0"
-  sha256 "89039909eeb1b8d66235cf527d156498db4187e1689021a5a8aa4e9170818946"
+  version "0.2.0"
+  sha256 "9a170c73fafc64d2d28971e03791c665672aa8b716a312e1d7453ca04d2c5c46"
 
   url "https://github.com/Pairadux/lapse/releases/download/v#{version}/lapse-#{version}-macos-arm64.dmg"
   name "Lapse"
@@ -10,6 +10,6 @@ cask "lapse" do
   app "lapse.app"
 
   zap trash: [
-    "~/Library/Application Support/com.example.lapse",
+    "~/Library/Application Support/co.lapseapp.lapse",
   ]
 end
