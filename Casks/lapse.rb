@@ -1,6 +1,6 @@
 cask "lapse" do
-  version "0.4.1"
-  sha256 "b765f203c87218836f8e0fc8013fd161ace3699eed9ac3120d0332b0010e825c"
+  version "0.5.0"
+  sha256 "81cb24ded2a31ec81413dbb58b9a9d3b4cf66a749ef278a46137c5ba656644d2"
 
   url "https://github.com/Pairadux/lapse/releases/download/v#{version}/lapse-#{version}-macos-arm64.dmg"
   name "Lapse"
